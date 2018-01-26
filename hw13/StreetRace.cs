@@ -8,7 +8,6 @@ namespace hw13
 {
     delegate void MoveAction(); // делегат перемещения
     delegate void PosSetter(int Position); // установка позиции
-    delegate void FinishAction(object Winner); // обратная связь
 
     class Game
     {
