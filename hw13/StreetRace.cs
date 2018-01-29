@@ -103,13 +103,12 @@ namespace hw13
     {
         static void Main()
         {
-            // Создаем игру
+            /*// Создаем игру
             Game game = new Game();
 
             // Создаем машинки
-            MovableObject car1 = new Car() { Name = "car1", Speed = 2 };
-            MovableObject car2 = new Car() { Name = "car2", Speed = 4 };
-            MovableObject r = new RandomCar() { Name = "Коняшка" };
+            Car car1 = new Car();
+            Car car2 = new Car();
 
             // Подписываемся на участие в игре
             car1.JoinGame(game);
@@ -122,7 +121,7 @@ namespace hw13
             // Печатаем победителя
             Console.WriteLine("Победил " + game.Winner);
 
-            Console.ReadLine();
+            Console.ReadLine();*/
         }
 
     }
